@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react",
+        "@babel/preset-typescript" // 让babel支持ts（使用babel代替ts-loader）
+    ],
+    "sourceType": "unambiguous",
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/transform-react-jsx",
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile",
+                "style": true
+            }
+        ]
+    ]
+}
