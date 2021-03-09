@@ -1,7 +1,7 @@
 'use strict';
 
-const blendReact = require('..');
+const feskyReact = require('..');
 
-describe('blend-react', () => {
+describe('fesky-react', () => {
     it('needs tests');
 });

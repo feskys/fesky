@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-20 18:32:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-react/lib/blend-react.js
+ * @FilePath: /fesky/packages/fesky-react/lib/fesky-react.js
  */
 'use strict';
 

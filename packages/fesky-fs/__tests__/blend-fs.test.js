@@ -1,7 +1,7 @@
 'use strict';
 
-const blendFs = require('..');
+const feskyFs = require('..');
 
-describe('blend-fs', () => {
+describe('fesky-fs', () => {
     it('needs tests');
 });

@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-22 00:43:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-utils/lib/blend-utils.js
+ * @FilePath: /fesky/packages/fesky-utils/lib/fesky-utils.js
  */
 'use strict';
 const _ = require('lodash');

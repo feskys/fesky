@@ -2,13 +2,13 @@
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const path = require('path');
-const blendConfig = require(path.resolve(process.cwd(), 'blend.config.js'));
+const feskyConfig = require(path.resolve(process.cwd(), 'fesky.config.js'));
 const log = require('../utils/log');
-const spawn = require('blend-spawn');
-const spinner = require('blend-spinner');
+const spawn = require('fesky-spawn');
+const spinner = require('fesky-spinner');
 const chalk = require('chalk');
 async function startDevServer() {
-    if (blendConfig.type == 'ssr') {
+    if (feskyConfig.type == 'ssr') {
         // server编译
         spinner().info(
             `${chalk.green('[server-compile]')} server compile is start`

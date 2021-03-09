@@ -1,5 +1,5 @@
 {
-    "name": "blend-cli",
+    "name": "fesky-cli",
     "version": "0.0.6",
     "description": "自动化创建（webpack+react）（webpack+vue）项目",
     "main": "index.js",
@@ -15,10 +15,10 @@
         "reactcli-init": "bin/react/react-init",
         "mbcli": "bin/mb/mb",
         "mbcli-init": "bin/mb/mb-init",
-        "blend": "bin/blend"
+        "fesky": "bin/fesky"
     },
     "dependencies": {
-        "blend-react": "^1.0.0",
+        "fesky-react": "^1.0.0",
         "commander": "^2.9.0",
         "inquirer": "^6.0.0",
         "ora": "^2.1.0",
@@ -28,6 +28,6 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chenyuanguang/blend-cli"
+        "url": "https://github.com/chenyuanguang/fesky-cli"
     }
 }

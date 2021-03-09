@@ -1,7 +1,7 @@
 'use strict';
 
-const blendSpinner = require('..');
+const feskySpinner = require('..');
 
-describe('blend-spinner', () => {
+describe('fesky-spinner', () => {
     it('needs tests');
 });

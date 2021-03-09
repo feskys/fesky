@@ -1,11 +1,11 @@
-# `blend-spinner`
+# `fesky-spinner`
 
 > TODO: description
 
 ## Usage
 
 ```
-const blendSpinner = require('blend-spinner');
+const feskySpinner = require('fesky-spinner');
 
 // TODO: DEMONSTRATE API
 ```

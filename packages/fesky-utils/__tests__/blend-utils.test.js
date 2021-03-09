@@ -1,7 +1,7 @@
 'use strict';
 
-const blendUtils = require('..');
+const feskyUtils = require('..');
 
-describe('blend-utils', () => {
+describe('fesky-utils', () => {
     it('needs tests');
 });

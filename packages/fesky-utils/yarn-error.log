@@ -28,18 +28,18 @@ Trace:
 
 npm manifest: 
   {
-    "name": "blend-utils",
+    "name": "fesky-utils",
     "version": "0.0.1",
     "description": "js相应工具函数库",
     "keywords": [
-      "blend",
-      "blend-utils",
+      "fesky",
+      "fesky-utils",
       "utils"
     ],
     "author": "chenyuanguang <chenyuanguang@cmcm.com>",
-    "homepage": "https://github.com/chenyuanguang/blend#readme",
+    "homepage": "https://github.com/chenyuanguang/fesky#readme",
     "license": "ISC",
-    "main": "lib/blend-utils.js",
+    "main": "lib/fesky-utils.js",
     "directories": {
       "lib": "lib",
       "test": "__tests__"
@@ -49,13 +49,13 @@ npm manifest:
     ],
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/chenyuanguang/blend.git"
+      "url": "git+https://github.com/chenyuanguang/fesky.git"
     },
     "scripts": {
       "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
-      "url": "https://github.com/chenyuanguang/blend/issues"
+      "url": "https://github.com/chenyuanguang/fesky/issues"
     }
   }
 
@@ -2094,22 +2094,22 @@ Lockfile:
     dependencies:
       file-uri-to-path "1.0.0"
   
-  "blend-fs@file:./packages/blend-fs":
+  "fesky-fs@file:./packages/fesky-fs":
     version "1.0.1"
     dependencies:
       fs-extra "^9.0.1"
   
-  blend-react@^1.0.0:
+  fesky-react@^1.0.0:
     version "1.0.0"
-    resolved "https://registry.yarnpkg.com/blend-react/-/blend-react-1.0.0.tgz#0d0974d44b35647c4c25c2a7207e7497c2913289"
+    resolved "https://registry.yarnpkg.com/fesky-react/-/fesky-react-1.0.0.tgz#0d0974d44b35647c4c25c2a7207e7497c2913289"
     integrity sha512-1rCgdVti6aiZn+hKBAcMciP+SRwLOs/d/4fpUdxOGVw5gJuauhjncLS1mYJNGpaJMXvbdQzFvhlyGf5kLBOs4w==
   
-  "blend-spawn@file:./packages/blend-spawn":
+  "fesky-spawn@file:./packages/fesky-spawn":
     version "0.0.2"
     dependencies:
-      blend-spinner "^0.0.2"
+      fesky-spinner "^0.0.2"
   
-  "blend-spinner@file:./packages/blend-spinner":
+  "fesky-spinner@file:./packages/fesky-spinner":
     version "0.0.2"
     dependencies:
       cli-spinners "^2.4.0"

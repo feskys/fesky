@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-21 18:14:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-fs/lib/blend-fs.js
+ * @FilePath: /fesky/packages/fesky-fs/lib/fesky-fs.js
  */
 'use strict';
 const fs = require('fs');

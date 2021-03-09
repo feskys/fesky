@@ -1,5 +1,5 @@
 {
-    "name": "blend-spinner",
+    "name": "fesky-spinner",
     "version": "0.0.4",
     "description": "自动化命令行loading node-loading ",
     "keywords": [
@@ -9,9 +9,9 @@
         "loading"
     ],
     "author": "chenyuanguang <chenyuanguang@cmcm.com>",
-    "homepage": "https://github.com/chenyuanguang/blend#readme",
+    "homepage": "https://github.com/chenyuanguang/fesky#readme",
     "license": "ISC",
-    "main": "lib/blend-spinner.js",
+    "main": "lib/fesky-spinner.js",
     "dependencies": {
         "cli-spinners": "^2.4.0",
         "ora": "^5.0.0"
@@ -25,13 +25,13 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/chenyuanguang/blend.git"
+        "url": "git+https://github.com/chenyuanguang/fesky.git"
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
-        "url": "https://github.com/chenyuanguang/blend/issues"
+        "url": "https://github.com/chenyuanguang/fesky/issues"
     },
     "gitHead": "421c48db588fb83ff88fdb99b4d6e009561d658c"
 }

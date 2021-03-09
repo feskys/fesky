@@ -4,9 +4,9 @@
  * @LastEditTime: 2020-08-21 16:09:11
  * @LastEditors: your name
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-spawn/lib/blend-spawn.js
+ * @FilePath: /fesky/packages/fesky-spawn/lib/fesky-spawn.js
  */
-const spinner = require('blend-spinner');
+const spinner = require('fesky-spinner');
 
 const spawn = async (cmd, options = {}) => {
     const chunks = cmd.split(' ');

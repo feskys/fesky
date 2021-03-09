@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-20 14:24:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/eslint-config-blend-react/lib/eslint-config-blend-react.js
+ * @FilePath: /fesky/packages/eslint-config-fesky-react/lib/eslint-config-fesky-react.js
  */
 'use strict';
 

@@ -1,25 +1,25 @@
-# eslint-config-blend-react
+# eslint-config-fesky-react
 
-blend-react 开发及其模板项目使用的 _ESLint_ 配置规则。
+fesky-react 开发及其模板项目使用的 _ESLint_ 配置规则。
 
 ## 如何使用
 
-1. 安装 `eslint` 和 `eslint-config-blend-react` 为开发依赖包
+1. 安装 `eslint` 和 `eslint-config-fesky-react` 为开发依赖包
 
 ```bash
 // NPM
-> npm i eslint eslint-config-blend-react --save-dev
+> npm i eslint eslint-config-fesky-react --save-dev
 // Yarn
-> yarn add eslint eslint-config-blend-react --dev
+> yarn add eslint eslint-config-fesky-react --dev
 ```
 
-2. 添加或编辑 _ESLint_ 配置文件 (`.eslintrc.js`)，将 `blend-react` 添加至 `extends` 选项中
+2. 添加或编辑 _ESLint_ 配置文件 (`.eslintrc.js`)，将 `fesky-react` 添加至 `extends` 选项中
 
 ```javascript
 module.exports = {
     // ...
     root: true,
-    extends: ['blend-react'],
+    extends: ['fesky-react'],
     // ...
 };
 ```
@@ -94,14 +94,14 @@ module.exports = {
 
 ```bash
 // NPM
-> npm i blend-prettier-config --save-dev
+> npm i fesky-prettier-config --save-dev
 // Yarn
-> yarn add blend-prettier-config --dev
+> yarn add fesky-prettier-config --dev
 ```
 
 ```javascript
 module.exports = {
-    ...require('blend-prettier-config'),
+    ...require('fesky-prettier-config'),
 };
 ```
 

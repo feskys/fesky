@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-20 14:48:37
  * @LastEditors: your name
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-prettier-config/lib/blend-prettier-config.js
+ * @FilePath: /fesky/packages/fesky-prettier-config/lib/fesky-prettier-config.js
  */
 'use strict';
 

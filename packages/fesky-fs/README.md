@@ -1,11 +1,11 @@
-# `blend-fs`
+# `fesky-fs`
 
 > TODO: description
 
 ## Usage
 
 ```
-const blendFs = require('blend-fs');
+const feskyFs = require('fesky-fs');
 
 // TODO: DEMONSTRATE API
 ```

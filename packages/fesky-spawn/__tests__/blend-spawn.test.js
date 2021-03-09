@@ -1,7 +1,7 @@
 'use strict';
 
-const blendSpawn = require('..');
+const feskySpawn = require('..');
 
-describe('blend-spawn', () => {
+describe('fesky-spawn', () => {
     it('needs tests');
 });

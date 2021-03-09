@@ -10,7 +10,7 @@ const path = require('path');
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
-const { bfs, efs, fs } = require('blend-fs');
+const { bfs, efs, fs } = require('fesky-fs');
 const config = require('./config');
 const miniCssExtractPlugin = require('mini-css-extract-plugin');
 // const AutoDllPlugin = require('autodll-webpack-plugin'); // 第 1 步：引入 DLL 自动链接库插件

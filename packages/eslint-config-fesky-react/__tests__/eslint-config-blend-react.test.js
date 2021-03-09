@@ -1,7 +1,7 @@
 'use strict';
 
-const eslintConfigBlendReact = require('..');
+const eslintConfigfeskyReact = require('..');
 
-describe('eslint-config-blend-react', () => {
+describe('eslint-config-fesky-react', () => {
     it('needs tests');
 });

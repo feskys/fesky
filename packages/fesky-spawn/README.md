@@ -1,11 +1,11 @@
-# `blend-spawn`
+# `fesky-spawn`
 
 > TODO: description
 
 ## Usage
 
 ```
-const blendSpawn = require('blend-spawn');
+const feskySpawn = require('fesky-spawn');
 
 // TODO: DEMONSTRATE API
 ```

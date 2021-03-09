@@ -7,7 +7,7 @@
  * @FilePath: /react-router-redux-auto/config/config.js
  */
 var path = require('path');
-const { deepExtend } = require('blend-utils');
+const { deepExtend } = require('fesky-utils');
 
 module.exports = deepExtend(
     {
@@ -71,5 +71,5 @@ module.exports = deepExtend(
             esLintUse: false, //是否使用eslint
         },
     },
-    require(path.resolve(process.cwd(), './blend.config.js'))
+    require(path.resolve(process.cwd(), './fesky.config.js'))
 );

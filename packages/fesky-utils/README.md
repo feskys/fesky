@@ -1,11 +1,11 @@
-# `blend-utils`
+# `fesky-utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const blendUtils = require('blend-utils');
+const feskyUtils = require('fesky-utils');
 
 // TODO: DEMONSTRATE API
 ```

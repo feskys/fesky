@@ -1,14 +1,14 @@
 // client编译
 const webpack = require('webpack');
 const path = require('path');
-const blendConfig = require(path.resolve(process.cwd(), 'blend.config.js'));
+const feskyConfig = require(path.resolve(process.cwd(), 'fesky.config.js'));
 const log = require('../utils/log');
-const spinner = require('blend-spinner');
+const spinner = require('fesky-spinner');
 const chalk = require('chalk');
 
 const clientConfig = require('../config/webpack.base.js');
 const clientCompiler = webpack(clientConfig);
-const { bfs, efs, fs } = require('blend-fs');
+const { bfs, efs, fs } = require('fesky-fs');
 const clientWatching = clientCompiler.watch(
     {
         aggregateTimeout: 300, // 类似节流功能,聚合多个更改一起构建

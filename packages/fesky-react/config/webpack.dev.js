@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-08-20 18:09:05
  * @LastEditors: your name
  * @Description: In User Settings Edit
- * @FilePath: /blend/packages/blend-react/config/webpack.dev.js
+ * @FilePath: /fesky/packages/fesky-react/config/webpack.dev.js
  */
 var webpack = require('webpack');
 var config = require('./config');

@@ -1,5 +1,5 @@
 {
-    "name": "blend-react",
+    "name": "fesky-react",
     "version": "0.0.20",
     "description": "react核心构建配置",
     "keywords": [
@@ -9,8 +9,8 @@
         "react-项目模板"
     ],
     "bin": {
-        "blend-react-start": "./bin/start.js",
-        "blend-react-build": "./bin/build.js"
+        "fesky-react-start": "./bin/start.js",
+        "fesky-react-build": "./bin/build.js"
     },
     "dependencies": {
         "@babel/core": "^7.11.1",
@@ -27,8 +27,8 @@
         "autodll-webpack-plugin": "^0.4.2",
         "autoprefixer": "^9.8.6",
         "babel-loader": "^8.1.0",
-        "blend-fs": "^1.0.3",
-        "blend-utils": "file:../blend-utils",
+        "fesky-fs": "^1.0.3",
+        "fesky-utils": "file:../fesky-utils",
         "chalk": "^4.1.0",
         "copy-webpack-plugin": "^6.0.3",
         "css-loader": "^4.2.1",
@@ -66,9 +66,9 @@
         "koa-static": "^5.0.0"
     },
     "author": "chenyuanguang <cygdream@qq.com>",
-    "homepage": "https://github.com/chenyuanguang/blend#readme",
+    "homepage": "https://github.com/chenyuanguang/fesky#readme",
     "license": "ISC",
-    "main": "lib/blend-react.js",
+    "main": "lib/fesky-react.js",
     "directories": {
         "lib": "lib",
         "test": "__tests__"
@@ -80,13 +80,13 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/chenyuanguang/blend.git"
+        "url": "git+https://github.com/chenyuanguang/fesky.git"
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
-        "url": "https://github.com/chenyuanguang/blend/issues"
+        "url": "https://github.com/chenyuanguang/fesky/issues"
     },
     "gitHead": "421c48db588fb83ff88fdb99b4d6e009561d658c"
 }

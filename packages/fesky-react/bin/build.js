@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const config = require('../config/webpack.build.js');
 
 const log = require('../utils/log');
-const spinner = require('blend-spinner');
+const spinner = require('fesky-spinner');
 
 async function startBuild() {
     const sp = spinner('打包中...');

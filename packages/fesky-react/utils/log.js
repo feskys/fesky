@@ -1,4 +1,4 @@
-const { bfs, efs, fs } = require('blend-fs');
+const { bfs, efs, fs } = require('fesky-fs');
 const path = require('path');
 module.exports = (log) => {
     const _file = path.resolve(process.cwd(), 'log/webpack.log.txt');

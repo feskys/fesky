@@ -1,7 +1,7 @@
-const { fs, efs, bfs } = require('blend-fs');
+const { fs, efs, bfs } = require('fesky-fs');
 const path = require('path');
 module.exports = () => {
-    const blendPackage = require('../../package.json');
+    const feskyPackage = require('../../package.json');
     const projectPackage = require(path.resolve(
         process.cwd(),
         './package.json'
@@ -22,13 +22,13 @@ module.exports = () => {
         'react-router-config',
         'redux',
         'md5',
-        'blend-fs',
+        'fesky-fs',
         'koa',
         'koa-static',
         'axios',
     ];
     copyDependencies.forEach((i) => {
-        _package.dependencies[i] = blendPackage.dependencies[i];
+        _package.dependencies[i] = feskyPackage.dependencies[i];
     });
 
     efs.ensureDirSync(path.resolve(process.cwd(), 'dist'));

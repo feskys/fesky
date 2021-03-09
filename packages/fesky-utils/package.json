@@ -1,16 +1,16 @@
 {
-  "name": "blend-utils",
+  "name": "fesky-utils",
   "version": "0.0.4",
   "description": "js相应工具函数库",
   "keywords": [
-    "blend",
-    "blend-utils",
+    "fesky",
+    "fesky-utils",
     "utils"
   ],
   "author": "chenyuanguang <chenyuanguang@cmcm.com>",
-  "homepage": "https://github.com/chenyuanguang/blend#readme",
+  "homepage": "https://github.com/chenyuanguang/fesky#readme",
   "license": "ISC",
-  "main": "lib/blend-utils.js",
+  "main": "lib/fesky-utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,13 +20,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenyuanguang/blend.git"
+    "url": "git+https://github.com/chenyuanguang/fesky.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/chenyuanguang/blend/issues"
+    "url": "https://github.com/chenyuanguang/fesky/issues"
   },
   "dependencies": {
     "lodash": "^4.17.20"

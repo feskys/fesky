@@ -1,7 +1,7 @@
 'use strict';
 
-const blendPrettierConfig = require('..');
+const feskyPrettierConfig = require('..');
 
-describe('blend-prettier-config', () => {
+describe('fesky-prettier-config', () => {
     it('needs tests');
 });

@@ -1,12 +1,12 @@
 // server编译
 const webpack = require('webpack');
 const path = require('path');
-const blendConfig = require(path.resolve(process.cwd(), 'blend.config.js'));
+const feskyConfig = require(path.resolve(process.cwd(), 'fesky.config.js'));
 const log = require('../utils/log');
 const serverConfig = require('../config/webpack.server.js');
-const spinner = require('blend-spinner');
+const spinner = require('fesky-spinner');
 const chalk = require('chalk');
-const { fs, efs, bfs } = require('blend-fs');
+const { fs, efs, bfs } = require('fesky-fs');
 // 创建package.json
 require('../includes/server/package.build.js')();
 // 打包

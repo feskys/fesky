@@ -1,23 +1,23 @@
-# blend-prettier-config
+# fesky-prettier-config
 
-blend-react 开发及其模板项目使用的 _prettier_ 配置规则。
+fesky-react 开发及其模板项目使用的 _prettier_ 配置规则。
 
 ## 如何使用
 
-1. 安装 `blend-prettier-config`、`prettier`、`prettier-eslint` 为开发依赖包
+1. 安装 `fesky-prettier-config`、`prettier`、`prettier-eslint` 为开发依赖包
 
 ```bash
 // NPM
-> npm i prettier prettier-eslint blend-prettier-config --save-dev
+> npm i prettier prettier-eslint fesky-prettier-config --save-dev
 // Yarn
-> yarn add prettier prettier-eslint blend-prettier-config --dev
+> yarn add prettier prettier-eslint fesky-prettier-config --dev
 ```
 
-2. 添加或编辑 _ESLint_ 配置文件 (`.prettierrc.js`)，将 `blend-prettier-config` 添加到配置中
+2. 添加或编辑 _ESLint_ 配置文件 (`.prettierrc.js`)，将 `fesky-prettier-config` 添加到配置中
 
 ```javascript
 module.exports = {
-    ...require('blend-prettier-config'),
+    ...require('fesky-prettier-config'),
 };
 ```
 
@@ -38,9 +38,9 @@ module.exports = {
 
 ```bash
 // NPM
-> npm i eslint eslint-config-blend-react  husky lint-staged --save-dev
+> npm i eslint eslint-config-fesky-react  husky lint-staged --save-dev
 // Yarn
-> yarn add eslint eslint-config-blend-react  husky lint-staged --dev
+> yarn add eslint eslint-config-fesky-react  husky lint-staged --dev
 ```
 
 4. 在项目根目录中创建名为 `.vscode` 的目录，并在该文件夹内创建名为 `settings.json` 的文件，其内容为：
@@ -91,7 +91,7 @@ module.exports = {
 module.exports = {
     // ...
     root: true,
-    extends: ['blend-react'],
+    extends: ['fesky-react'],
     // ...
 };
 ```
