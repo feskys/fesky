@@ -1,6 +1,6 @@
 {
     "name": "fesky-spawn",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "前端自动化开发常用子进程方法",
     "keywords": [
         "fesky-spawn",
@@ -18,7 +18,7 @@
         "test": "__tests__"
     },
     "dependencies": {
-        "fesky-spinner": "^0.0.4"
+        "fesky-spinner": "^0.0.5"
     },
     "files": [
         "lib"

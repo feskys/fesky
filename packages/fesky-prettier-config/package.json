@@ -1,6 +1,6 @@
 {
     "name": "fesky-prettier-config",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "配合eslint-config-fesky-*的prettier配置",
     "keywords": [
         "prettier",

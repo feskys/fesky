@@ -1,6 +1,6 @@
 {
     "name": "fesky-cli",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "自动化创建（webpack+react）（webpack+vue）项目",
     "main": "index.js",
     "scripts": {
@@ -18,8 +18,8 @@
         "fesky": "bin/fesky"
     },
     "dependencies": {
-        "fesky-react": "^1.0.0",
         "commander": "^2.9.0",
+        "fesky-react": "^1.0.0",
         "inquirer": "^6.0.0",
         "ora": "^2.1.0",
         "user-home": "^2.0.0"

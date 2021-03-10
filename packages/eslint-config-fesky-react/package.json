@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-fesky-react",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "针对react项目的规范",
     "author": "chenyuanguang <837990335@qq.com>",
     "homepage": "https://github.com/chenyuanguang/fesky#readme",
